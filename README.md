@@ -1,2 +1,2 @@
-# robertix-react
-A React.js based portfolio
+# My Portfolio
+Kindly visit: [link soon](./README.md)
