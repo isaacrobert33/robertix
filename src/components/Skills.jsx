@@ -32,36 +32,63 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>I have experience in various skills and have built and solved a lot real-life problems in the following field of tech:</p>
+                        <p>What I'm great at? I have experience in various skills and I've built and solved <br></br>various real-life problems in the following field of tech:</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <CircularProgress value={80} size="150px" color="#a03583">
-                                  <CircularProgressLabel>80%</CircularProgressLabel>
-                                </CircularProgress>
-                                <h5>Frontend Development/Design</h5>
-                            </div>
-                            <div className="item">
-                               <CircularProgress value={90} size="150px" color="#a03583">
+                                <CircularProgress value={85} size="150px" color="#a03583">
                                   <CircularProgressLabel>90%</CircularProgressLabel>
                                 </CircularProgress>
-                                <h5>Backend Engineering/Programming</h5>
+                                <h5>Python Programming</h5>
+                            </div>
+                            <div className="item">
+                                <CircularProgress value={85} size="150px" color="#a03583">
+                                  <CircularProgressLabel>80%</CircularProgressLabel>
+                                </CircularProgress>
+                                <h5>Django (RESTful API)</h5>
+                            </div>
+                            <div className="item">
+                                <CircularProgress value={85} size="150px" color="#a03583">
+                                  <CircularProgressLabel>90%</CircularProgressLabel>
+                                </CircularProgress>
+                                <h5>Flask</h5>
+                            </div>
+                            <div className="item">
+                                <CircularProgress value={85} size="150px" color="#a03583">
+                                  <CircularProgressLabel>80%</CircularProgressLabel>
+                                </CircularProgress>
+                                <h5>Kivy/Material Design</h5>
                             </div>
                             <div className="item">
                                 <CircularProgress value={85} size="150px" color="#a03583">
                                   <CircularProgressLabel>85%</CircularProgressLabel>
                                 </CircularProgress>
-                                <h5>Mobile Development</h5>
+                                <h5>Javascript</h5>
                             </div>
-                            {/* <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
-                            </div> */}
+                            <div className="item">
+                                <CircularProgress value={80} size="150px" color="#a03583">
+                                  <CircularProgressLabel>80%</CircularProgressLabel>
+                                </CircularProgress>
+                                <h5>HTML5</h5>
+                            </div>
+                            <div className="item">
+                               <CircularProgress value={90} size="150px" color="#a03583">
+                                  <CircularProgressLabel>80%</CircularProgressLabel>
+                                </CircularProgress>
+                                <h5>CSS3</h5>
+                            </div>
+                            <div className="item">
+                               <CircularProgress value={90} size="150px" color="#a03583">
+                                  <CircularProgressLabel>75%</CircularProgressLabel>
+                                </CircularProgress>
+                                <h5>React.JS</h5>
+                            </div>
+                            
                         </Carousel>
                     </div>
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="background-img" />
     </section>
   )
 }
