@@ -37,8 +37,8 @@ export const Projects = () => {
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Price Manager",
+      description: "This is a business tool used for managing online shop prices, built on Flask and React.js",
       imgUrl: projImg3,
     },
   ];
