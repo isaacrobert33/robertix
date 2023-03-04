@@ -12,28 +12,28 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "BioGen",
+      description: "With BioGen (a Biography Generator) you have no worries getting your Biography wrote up in no time.",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Status-Bot",
+      description: "With Status-Bot, you have all your tasks as a website admin manager done in a blink of a eye.",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Tempager",
+      description: "Tempager (template manager) is a Flask API. By the means of the API you have access to manipulate every of your resources.",
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Oryn",
+      description: "Oryn is a React base music streaming web application built leveraging Spotify API",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "GitCode",
+      description: "GitCode is a Web Application built with Python Flask as the Backend and React.js as the Frontend Framework. It's a Web IDE with Git features (pull, push, commit, clone, etc.)",
       imgUrl: projImg2,
     },
     {
