@@ -1,9 +1,10 @@
 import React from "react";
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/oryn.png";
+import projImg2 from "../assets/img/PriceMgmt.png";
+import projImg3 from "../assets/img/biogen.png";
+import projImg4 from "../assets/img/api.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -14,17 +15,17 @@ export const Projects = () => {
     {
       title: "BioGen",
       description: "With BioGen (a Biography Generator) you have no worries getting your Biography wrote up in no time.",
-      imgUrl: projImg1,
+      imgUrl: projImg3,
     },
     {
       title: "Status-Bot",
       description: "With Status-Bot, you have all your tasks as a website admin manager done in a blink of a eye.",
-      imgUrl: projImg2,
+      imgUrl: projImg4,
     },
     {
       title: "Tempager",
       description: "Tempager (template manager) is a Flask API. By the means of the API you have access to manipulate every of your resources.",
-      imgUrl: projImg3,
+      imgUrl: projImg4,
     },
     {
       title: "Oryn",
@@ -39,7 +40,7 @@ export const Projects = () => {
     {
       title: "Price Manager",
       description: "This is a business tool used for managing online shop prices, built on Flask and React.js",
-      imgUrl: projImg3,
+      imgUrl: projImg2,
     },
   ];
 
