@@ -5,6 +5,7 @@ import projImg1 from "../assets/img/oryn.png";
 import projImg2 from "../assets/img/PriceMgmt.png";
 import projImg3 from "../assets/img/biogen.png";
 import projImg4 from "../assets/img/api.jpg";
+import projImg5 from "../assets/img/gitcode.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -35,7 +36,7 @@ export const Projects = () => {
     {
       title: "GitCode",
       description: "GitCode is a Web Application built with Python Flask as the Backend and React.js as the Frontend Framework. It's a Web IDE with Git features (pull, push, commit, clone, etc.)",
-      imgUrl: projImg2,
+      imgUrl: projImg5,
     },
     {
       title: "Price Manager",
