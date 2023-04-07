@@ -683,4 +683,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   #footerlogo {
     display: none;
   }
+
+  .banner h1 {
+    font-size: 45px;
+  }
 }
