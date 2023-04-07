@@ -664,6 +664,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: azure;
 }
 
+.conn a {
+  text-decoration: none;
+  color: azure;
+  
+}
+
 @keyframes spin {
   from {
     transform: rotate(0deg);

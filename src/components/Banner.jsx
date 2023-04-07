@@ -12,7 +12,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web Developer", "Python Engineer", "Mobile Developer" ];
+  const toRotate = [ "Web Developer", "Python Engineer", "Mobile Developper" ];
   const period = 1000;
 
   const tick = () => {
@@ -55,13 +55,13 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+              <div className={isVisible ? "animate__animated animate__fadeIn conn" : "conn"}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Isaac Robert,`} <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Web Developer", "Python Engineer", "Mobile Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I'm a passionate Full Stack web developer and Mobile Applications developer having experience in Web Applications with Python, Django, Flask React.js and Cross-platform, Hybrid and E-Commerce mobile apps development with Flutter and Kivy.</p>
                   <br></br>
                   <a href="https://docs.google.com/document/d/1Tr50xfdhWuK9RBHiSWbSS54jprXyc2lVpaqwCE4mEzo/edit?usp=sharing" target={"blank"} id="resume">See My Resume</a>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => console.log('connect')}><a href={"#connect"}>Let’s Connect <ArrowRightCircle size={25} /></a></button>
               </div>}
             </TrackVisibility>
           </Col>
