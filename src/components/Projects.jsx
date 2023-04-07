@@ -14,19 +14,9 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "BioGen",
-      description: "With BioGen (a Biography Generator) you have no worries getting your Biography wrote up in no time.",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Status-Bot",
-      description: "With Status-Bot, you have all your tasks as a website admin manager done in a blink of a eye.",
-      imgUrl: projImg4,
-    },
-    {
-      title: "Tempager",
-      description: "Tempager (template manager) is a Flask API. By the means of the API you have access to manipulate every of your resources.",
-      imgUrl: projImg4,
+      title: "Price Manager",
+      description: "This is a business tool used for managing online shop prices, built on Flask and React.js",
+      imgUrl: projImg2,
     },
     {
       title: "Oryn",
@@ -34,15 +24,26 @@ export const Projects = () => {
       imgUrl: projImg1,
     },
     {
+      title: "Status-Bot",
+      description: "With Status-Bot, you have all your tasks as a website admin manager done in a blink of a eye.",
+      imgUrl: projImg4,
+    },
+    {
+      title: "BioGen",
+      description: "With BioGen (a Biography Generator) you have no worries getting your Biography wrote up in no time.",
+      imgUrl: projImg3,
+    },
+    {
+      title: "Tempager",
+      description: "Tempager (template manager) is a Flask API. By the means of the API you have access to manipulate every of your resources.",
+      imgUrl: projImg4,
+    },
+    {
       title: "GitCode",
       description: "GitCode is a Web Application built with Python Flask as the Backend and React.js as the Frontend Framework. It's a Web IDE with Git features (pull, push, commit, clone, etc.)",
       imgUrl: projImg5,
     },
-    {
-      title: "Price Manager",
-      description: "This is a business tool used for managing online shop prices, built on Flask and React.js",
-      imgUrl: projImg2,
-    },
+    
   ];
 
   return (
@@ -83,10 +84,10 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p></p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p></p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

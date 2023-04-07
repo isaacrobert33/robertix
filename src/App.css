@@ -300,6 +300,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-right: 0.08em solid #666;
 }
 
+.nav-item a {
+  cursor: pointer;
+}
+
 /************ Skills Css ************/
 .skill {
   padding: 0 0 50px 0;
@@ -431,6 +435,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-imgbx:hover::before {
   height: 100%;
 }
+
+.proj-imgbx img {
+  height: 230px;
+}
+
 .proj-txtx {
   position: absolute;
   text-align: center;
@@ -605,6 +614,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 500;
   letter-spacing: 0.5px;
   border-radius: 18px;
+  overflow: hidden;
+  transition: color 1s;
+}
+.new-email-bx button:hover {
+  background: #4A2FBD;
 }
 .footer img {
   width: 26%;
