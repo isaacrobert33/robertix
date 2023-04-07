@@ -39,7 +39,7 @@ export const NavBar = () => {
         <Container>
           <Navbar.Brand href="/">
             {/* <img src={logo} alt="Logo" /> */}
-            <Logo></Logo>
+            <Logo id={"headerLogo"}></Logo>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
