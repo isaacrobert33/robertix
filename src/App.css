@@ -233,7 +233,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
-  padding: 260px 0 100px 0;
+  padding: 120px 0 100px 0;
   background-image: url('./assets/img/banner-bg.png');
   background-position: top center;
   background-size: cover;
@@ -686,5 +686,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
   .banner h1 {
     font-size: 45px;
+  }
+
+  .email-form {
+    width: 250%;
+    margin-left: -70px;
+  }
+
+  .new-email-bx {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .new-email-bx button {
+    padding: 10px 35px;
   }
 }
