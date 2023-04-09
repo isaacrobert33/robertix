@@ -17,31 +17,37 @@ export const Projects = () => {
       title: "Price Manager",
       description: "This is a business tool used for managing online shop prices, built on Flask and React.js",
       imgUrl: projImg2,
+      projUrl: "https://price-manager.vercel.app/"
     },
     {
       title: "Oryn",
       description: "Oryn is a React base music streaming web application built leveraging Spotify API",
       imgUrl: projImg1,
+      projUrl: "https://oryn.vercel.app/"
     },
     {
       title: "Status-Bot",
       description: "With Status-Bot, you have all your tasks as a website admin manager done in a blink of a eye.",
       imgUrl: projImg4,
+      projUrl: "https://github.com/isaacrobert33/Status-Bot"
     },
     {
       title: "BioGen",
       description: "With BioGen (a Biography Generator) you have no worries getting your Biography wrote up in no time.",
       imgUrl: projImg3,
+      projUrl: "https://biography-generator.netlify.app/"
     },
     {
       title: "Tempager",
       description: "Tempager (template manager) is a Flask API. By the means of the API you have access to manipulate every of your resources.",
       imgUrl: projImg4,
+      projUrl: ""
     },
     {
       title: "GitCode",
       description: "GitCode is a Web Application built with Python Flask as the Backend and React.js as the Frontend Framework. It's a Web IDE with Git features (pull, push, commit, clone, etc.)",
       imgUrl: projImg5,
+      projUrl: ""
     },
     
   ];
