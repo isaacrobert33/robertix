@@ -440,6 +440,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 230px;
 }
 
+.proj-imgbx a {
+  text-decoration: none;
+}
 .proj-txtx {
   position: absolute;
   text-align: center;

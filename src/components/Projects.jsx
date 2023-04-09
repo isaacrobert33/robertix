@@ -14,16 +14,16 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Price Manager",
-      description: "This is a business tool used for managing online shop prices, built on Flask and React.js",
-      imgUrl: projImg2,
-      projUrl: "https://price-manager.vercel.app/"
-    },
-    {
       title: "Oryn",
       description: "Oryn is a React base music streaming web application built leveraging Spotify API",
       imgUrl: projImg1,
       projUrl: "https://oryn.vercel.app/"
+    },
+    {
+      title: "Price Manager",
+      description: "This is a business tool used for managing online shop prices, built on Flask and React.js",
+      imgUrl: projImg2,
+      projUrl: "https://price-manager.vercel.app/"
     },
     {
       title: "Status-Bot",
@@ -41,13 +41,13 @@ export const Projects = () => {
       title: "Tempager",
       description: "Tempager (template manager) is a Flask API. By the means of the API you have access to manipulate every of your resources.",
       imgUrl: projImg4,
-      projUrl: ""
+      projUrl: "https://github.com/isaacrobert33/Tempager"
     },
     {
       title: "GitCode",
       description: "GitCode is a Web Application built with Python Flask as the Backend and React.js as the Frontend Framework. It's a Web IDE with Git features (pull, push, commit, clone, etc.)",
       imgUrl: projImg5,
-      projUrl: ""
+      projUrl: "http://robertix.pythonanywhere.com"
     },
     
   ];
