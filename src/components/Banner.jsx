@@ -60,7 +60,7 @@ export const Banner = () => {
                 <h1>{`Hi! I'm Isaac Robert,`} <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Web Developer", "Python Engineer", "Mobile Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I'm a passionate Full Stack web developer and Mobile Applications developer having experience in Web Applications with Python, Django, Flask React.js and Cross-platform, Hybrid and E-Commerce mobile apps development with Flutter and Kivy.</p>
                   <br></br>
-                  <a href="https://docs.google.com/document/d/1Tr50xfdhWuK9RBHiSWbSS54jprXyc2lVpaqwCE4mEzo/edit?usp=sharing" target={"blank"} id="resume">See My Resume</a>
+                  <a href="https://docs.google.com/document/d/1iue9kNWJaVzD_DODHCms3bKFXOAuo4h2/edit?usp=sharing&ouid=114228919205311387726&rtpof=true&sd=true" target={"blank"} id="resume">See My Resume</a>
                   <button onClick={() => console.log('connect')}><a href={"#connect"}>Let’s Connect <ArrowRightCircle size={25} /></a></button>
               </div>}
             </TrackVisibility>

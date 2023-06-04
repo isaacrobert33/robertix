@@ -49,6 +49,12 @@ export const Projects = () => {
       imgUrl: projImg5,
       projUrl: "http://robertix.pythonanywhere.com"
     },
+    {
+      title: "MonChat",
+      description: "A Python-Django Based Social Chat Software",
+      imgUrl: "",
+      projUrl: "https://github.com/isaacrobert33/monchat"
+    }
     
   ];
 
