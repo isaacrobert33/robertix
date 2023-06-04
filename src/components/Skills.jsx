@@ -82,6 +82,12 @@ export const Skills = () => {
                                 </CircularProgress>
                                 <h5>React.JS</h5>
                             </div>
+                            <div className="item">
+                               <CircularProgress value={90} size="150px" color="#a03583">
+                                  <CircularProgressLabel>80%</CircularProgressLabel>
+                                </CircularProgress>
+                                <h5>Svelte.JS</h5>
+                            </div>
                             
                         </Carousel>
                     </div>
