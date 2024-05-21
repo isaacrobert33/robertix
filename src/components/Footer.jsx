@@ -22,7 +22,7 @@ export const Footer = () => {
               <a href="https://web.facebook.com/isaacrobert.owoyemi" target={"_blank"} rel={"noreferrer"}><img src={navIcon2} alt="Icon" /></a>
               <a href="https://www.instagram.com/_robertix/" target={"_blank"} rel={"noreferrer"}><img src={navIcon3} alt="Icon" /></a>
             </div>
-            <p>Copyright 2023. All Rights Reserved</p>
+            <p>Copyright 2024. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
