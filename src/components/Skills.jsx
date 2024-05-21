@@ -31,8 +31,8 @@ export const Skills = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2>Skills</h2>
-                        <p>What I'm great at? I have experience in various skills and I've built and solved <br></br>various real-life problems in the following field of tech:</p>
+                        <h2>Skills & Frameworks</h2>
+                        <p>What I'm great at? I have experience in various skills and I've built and solved <br></br>various real-life problems using this tech tools and stacks:</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <CircularProgress value={90} size="150px" color="#a03583">
