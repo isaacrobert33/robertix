@@ -59,7 +59,7 @@ export const Contact = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <h2>Get In Touch</h2>
-                <button><a style={{textDecoration: 'none', color: '#000'}} href={'mailto:isaacrobertoluwaseun@gmail.com'}>Send a mail</a></button>
+                <a style={{textDecoration: 'none', color: '#000', backgroundColor: '#fff', padding: '12px', border: '2px solid #555'}} href={'mailto:isaacrobertoluwaseun@gmail.com'}>Send a mail</a>
               </div>}
             </TrackVisibility>
           </Col>
