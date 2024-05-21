@@ -14,16 +14,28 @@ export const Projects = () => {
 
   const projects = [
     {
+      title: "Beatdrop",
+      description: "This is a musical event managing platform built on Flask and React.js",
+      imgUrl: projImg2,
+      projUrl: "https://traxxsion.com/"
+    },
+    {
+      title: "LizzyHealth",
+      description: "This is an Hospital Management Software, a SAAS product to render services to hospitals. Built on Python (Django) and React.js for the frontend.",
+      imgUrl: projImg3,
+      projUrl: "https://server1.lhrobot.com.ng/"
+    },
+    {
+      title: "Tempager",
+      description: "Tempager (template manager) is a Flask API. By the means of the API you have access to perform CRUD operations on templates resources.",
+      imgUrl: projImg4,
+      projUrl: "https://github.com/isaacrobert33/Tempager"
+    },
+    {
       title: "Oryn",
       description: "Oryn is a React base music streaming web application built leveraging Spotify API",
       imgUrl: projImg1,
       projUrl: "https://oryn.vercel.app/"
-    },
-    {
-      title: "Price Manager",
-      description: "This is a business tool used for managing online shop prices, built on Flask and React.js",
-      imgUrl: projImg2,
-      projUrl: "https://price-manager.vercel.app/"
     },
     {
       title: "Status-Bot",
@@ -31,31 +43,6 @@ export const Projects = () => {
       imgUrl: projImg4,
       projUrl: "https://github.com/isaacrobert33/Status-Bot"
     },
-    {
-      title: "BioGen",
-      description: "With BioGen (a Biography Generator) you have no worries getting your Biography wrote up in no time.",
-      imgUrl: projImg3,
-      projUrl: "https://biography-generator.netlify.app/"
-    },
-    {
-      title: "Tempager",
-      description: "Tempager (template manager) is a Flask API. By the means of the API you have access to manipulate every of your resources.",
-      imgUrl: projImg4,
-      projUrl: "https://github.com/isaacrobert33/Tempager"
-    },
-    {
-      title: "GitCode",
-      description: "GitCode is a Web Application built with Python Flask as the Backend and React.js as the Frontend Framework. It's a Web IDE with Git features (pull, push, commit, clone, etc.)",
-      imgUrl: projImg5,
-      projUrl: "http://robertix.pythonanywhere.com"
-    },
-    {
-      title: "MonChat",
-      description: "A Python-Django Based Social Chat Software",
-      imgUrl: "",
-      projUrl: "https://github.com/isaacrobert33/monchat"
-    }
-    
   ];
 
   return (
