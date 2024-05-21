@@ -12,7 +12,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web Developer", "Python Engineer", "Mobile Developper" ];
+  const toRotate = [ "Software Engineer", "Web Developer", "Python Engineer"];
   const period = 1000;
 
   const tick = () => {
@@ -58,7 +58,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn conn" : "conn"}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Isaac Robert,`} <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Web Developer", "Python Engineer", "Mobile Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I'm a passionate Full Stack web developer and Mobile Applications developer having experience in Web Applications with Python, Django, Flask React.js and Cross-platform, Hybrid and E-Commerce mobile apps development with Flutter and Kivy.</p>
+                  <p>I'm a passionate Software engineer and Web developer having experience in developing business solutions using Python, Django, Flask React.js.</p>
                   <br></br>
                   <a href="https://docs.google.com/document/d/1iue9kNWJaVzD_DODHCms3bKFXOAuo4h2/edit?usp=sharing&ouid=114228919205311387726&rtpof=true&sd=true" target={"blank"} id="resume">See My Resume</a>
                   <button onClick={() => console.log('connect')}><a href={"#connect"}>Let’s Connect <ArrowRightCircle size={25} /></a></button>
